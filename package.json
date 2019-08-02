@@ -1,0 +1,37 @@
+{
+  "name": "ba-retrieval",
+  "version": "1.1.6",
+  "description": "多维数组输入自动检索",
+  "main": "dist/ba-retrieval.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack-dev-server --open --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yuppiezero/"
+  },
+  "keywords": ["input输入自动检索","搜索匹配输入框"],
+  "author": "Yuppiezero",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^1.0.0",
+    "file-loader": "^2.0.0",
+    "node-sass": "^4.9.4",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
+    "vue": "^2.5.17",
+    "vue-hot-reload-api": "^2.2.4",
+    "vue-html-loader": "^1.2.4",
+    "vue-loader": "^15.4.2",
+    "vue-router": "^3.0.1",
+    "vue-style-loader": "^3.0.3",
+    "vue-template-compiler": "^2.5.9",
+    "webpack": "^4.22.0",
+    "webpack-cli": "^3.1.2"
+  }
+}
